@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/js/jquery.min.js,WebRoot/js/main.js,WebRoot/js/utf8-jsp/lang/zh-cn/zh-cn.js,WebRoot/js/utf8-jsp/ueditor.all.min.js,WebRoot/js/jquery.selectui.js,WebRoot/js/zxxFile.js
+validator.Unchecked=

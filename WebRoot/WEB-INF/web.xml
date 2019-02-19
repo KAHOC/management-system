@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Tb_managerServlet</servlet-name>
+    <servlet-class>com.sp.servlet.Tb_managerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tb_studentservlet</servlet-name>
+    <servlet-class>com.sp.services.Tb_studentservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tb_studentServlet</servlet-name>
+    <servlet-class>com.sp.servlet.Tb_studentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tb_sturesultServlet</servlet-name>
+    <servlet-class>com.sp.servlet.Tb_sturesultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tb_lessonServlet</servlet-name>
+    <servlet-class>com.sp.servlet.Tb_lessonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tb_taotiServlet</servlet-name>
+    <servlet-class>com.sp.servlet.Tb_taotiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Tb_questionsServlet</servlet-name>
+    <servlet-class>com.sp.servlet.Tb_questionsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Tb_managerServlet</servlet-name>
+    <url-pattern>/Tb_managerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tb_studentservlet</servlet-name>
+    <url-pattern>/Tb_studentservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tb_studentServlet</servlet-name>
+    <url-pattern>/Tb_studentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tb_sturesultServlet</servlet-name>
+    <url-pattern>/Tb_sturesultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tb_lessonServlet</servlet-name>
+    <url-pattern>/Tb_lessonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tb_taotiServlet</servlet-name>
+    <url-pattern>/Tb_taotiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Tb_questionsServlet</servlet-name>
+    <url-pattern>/Tb_questionsServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
